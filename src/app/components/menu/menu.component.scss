@@ -1,3 +1,9 @@
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+}
+
 ::ng-deep p-button.menu-btn {
   .p-button {
     justify-content: flex-start;
