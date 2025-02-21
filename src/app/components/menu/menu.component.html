@@ -1,0 +1,20 @@
+<div class="pt-10 w-2/5 max-w-[250px]">
+  <p-button
+    label="Overview"
+    class="menu-btn mb-10"
+    fluid
+    text
+    severity="contrast"
+    (onClick)="goTo('overview')"
+    [class]="isActive('/overview')"
+  />
+  <p-button
+    label="Listen"
+    class="menu-btn"
+    fluid
+    text
+    severity="contrast"
+    (onClick)="goTo('listen')"
+    [class]="isActive('/listen')"
+  />
+</div>

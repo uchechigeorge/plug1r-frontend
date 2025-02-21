@@ -1,0 +1,18 @@
+::ng-deep p-button.menu-btn {
+  .p-button {
+    justify-content: flex-start;
+  }
+
+  &.selected {
+    ::after {
+      content: "";
+      width: 3px;
+      height: 20px;
+      background-color: var(--p-surface-950);
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

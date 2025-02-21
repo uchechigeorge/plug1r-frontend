@@ -1,0 +1,15 @@
+.main-container {
+  overflow: hidden;
+  background-color: var(--p-surface-100);
+}
+
+.app-container {
+  height: calc(100vh - (var(--spacing) * 16));
+  overflow: hidden;
+}
+
+.app-content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: var(--p-surface-0);
+}

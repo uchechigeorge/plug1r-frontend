@@ -1,0 +1,29 @@
+<div class="header h-16 flex items-center p-3">
+  <div class="logo w-2/5">
+    <img src="assets/images/logo.svg" alt="Logo" />
+  </div>
+  <div class="end w-full flex justify-end items-center">
+    <p-button
+      icon="pi pi-bell"
+      outlined
+      rounded
+      size="small"
+      severity="contrast"
+      class="mr-2"
+    />
+    <p-splitbutton
+      [model]="items"
+      rounded
+      outlined
+      severity="contrast"
+      size="small"
+    >
+      <ng-template pTemplate="content">
+        <span class="flex items-center h-full">
+          <p-avatar image="assets/images/dp.png" shape="circle" class="mr-1" />
+          <span>Ralph Edwards</span>
+        </span>
+      </ng-template>
+    </p-splitbutton>
+  </div>
+</div>

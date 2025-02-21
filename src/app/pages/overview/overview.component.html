@@ -1,0 +1,49 @@
+<div>
+  <div class="header flex mb-10">
+    <div class="name w-2/5">
+      <p class="text-2xl font-bold">Welcome back, Olivia</p>
+      <span class="text-sm">Create, manage and share streaming</span>
+    </div>
+    <div class="btns w-full flex text-end justify-end items-center">
+      <p-button label="Go live" icon="pi pi-wifi" rounded raised />
+      <p-button
+        label="Schedule for later"
+        icon="pi pi-calendar"
+        class="ml-5"
+        rounded
+        raised
+        text
+        severity="contrast"
+      />
+      <p-button
+        label="Upload recording"
+        icon="pi pi-video"
+        class="ml-5"
+        rounded
+        raised
+        text
+        severity="contrast"
+      />
+    </div>
+  </div>
+
+  <div class="cards flex items-center justify-between mb-10">
+    <app-overview-card title="Total Earnings" content="$200,000" />
+    <app-overview-card title="Total Listeners" content="1500K" />
+    <app-overview-card
+      title="Total Streams"
+      content="1500K"
+      [showBadge]="true"
+    />
+    <app-overview-card
+      title="Total Followers"
+      content="10k"
+      [showBadge]="true"
+    />
+  </div>
+
+  <div class="charts flex">
+    <app-overview-bar-chart class="w-3/5" />
+    <app-overview-circle-chart class="w-2/5" />
+  </div>
+</div>
