@@ -5,11 +5,10 @@ import { AvatarModule } from 'primeng/avatar';
 import { MenuItem } from 'primeng/api';
 
 @Component({
-  selector: 'app-header',
-  standalone: true,
-  imports: [ButtonModule, SplitButtonModule, AvatarModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
+    selector: 'app-header',
+    imports: [ButtonModule, SplitButtonModule, AvatarModule],
+    templateUrl: './header.component.html',
+    styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
   items: MenuItem[];

@@ -5,15 +5,14 @@ import { OverviewBarChartComponent } from '../../components/overview-bar-chart/o
 import { OverviewCircleChartComponent } from '../../components/overview-circle-chart/overview-circle-chart.component';
 
 @Component({
-  selector: 'app-overview',
-  standalone: true,
-  imports: [
-    ButtonModule,
-    OverviewCardComponent,
-    OverviewBarChartComponent,
-    OverviewCircleChartComponent,
-  ],
-  templateUrl: './overview.component.html',
-  styleUrl: './overview.component.scss',
+    selector: 'app-overview',
+    imports: [
+        ButtonModule,
+        OverviewCardComponent,
+        OverviewBarChartComponent,
+        OverviewCircleChartComponent,
+    ],
+    templateUrl: './overview.component.html',
+    styleUrl: './overview.component.scss'
 })
 export class OverviewComponent {}

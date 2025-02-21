@@ -4,12 +4,11 @@ import { CardModule } from 'primeng/card';
 import { TagModule } from 'primeng/tag';
 
 @Component({
-  selector: 'app-overview-card',
-  standalone: true,
-  imports: [CommonModule, CardModule, TagModule],
-  templateUrl: './overview-card.component.html',
-  styleUrl: './overview-card.component.scss',
-  host: { class: 'contents' },
+    selector: 'app-overview-card',
+    imports: [CommonModule, CardModule, TagModule],
+    templateUrl: './overview-card.component.html',
+    styleUrl: './overview-card.component.scss',
+    host: { class: 'contents' }
 })
 export class OverviewCardComponent {
   @Input() title: string = '';

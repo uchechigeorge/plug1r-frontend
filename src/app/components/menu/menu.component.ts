@@ -3,12 +3,11 @@ import { Router } from '@angular/router';
 import { ButtonModule } from 'primeng/button';
 
 @Component({
-  selector: 'app-menu',
-  standalone: true,
-  imports: [ButtonModule],
-  templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss',
-  host: { class: 'contents' },
+    selector: 'app-menu',
+    imports: [ButtonModule],
+    templateUrl: './menu.component.html',
+    styleUrl: './menu.component.scss',
+    host: { class: 'contents' }
 })
 export class MenuComponent {
   constructor(private router: Router) {}

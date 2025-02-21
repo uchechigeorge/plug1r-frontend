@@ -11,11 +11,10 @@ import { ChartModule } from 'primeng/chart';
 // import { AppConfigService } from '@/service/appconfigservice';
 
 @Component({
-  selector: 'app-overview-bar-chart',
-  standalone: true,
-  imports: [ChartModule],
-  templateUrl: './overview-bar-chart.component.html',
-  styleUrl: './overview-bar-chart.component.scss',
+    selector: 'app-overview-bar-chart',
+    imports: [ChartModule],
+    templateUrl: './overview-bar-chart.component.html',
+    styleUrl: './overview-bar-chart.component.scss'
 })
 export class OverviewBarChartComponent {
   data: any;

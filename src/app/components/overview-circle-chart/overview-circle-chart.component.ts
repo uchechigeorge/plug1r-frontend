@@ -11,11 +11,10 @@ import { ChartModule } from 'primeng/chart';
 // import { AppConfigService } from '@/service/appconfigservice';
 
 @Component({
-  selector: 'app-overview-circle-chart',
-  standalone: true,
-  imports: [ChartModule],
-  templateUrl: './overview-circle-chart.component.html',
-  styleUrl: './overview-circle-chart.component.scss',
+    selector: 'app-overview-circle-chart',
+    imports: [ChartModule],
+    templateUrl: './overview-circle-chart.component.html',
+    styleUrl: './overview-circle-chart.component.scss'
 })
 export class OverviewCircleChartComponent {
   data: any;
